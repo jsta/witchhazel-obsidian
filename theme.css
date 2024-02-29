@@ -8,6 +8,47 @@ body {
 	--toggle-radius: 0px;
 	--toggle-thumb-radius: 0px;
 	--slider-thumb-radius: 0px;
+
+	--purple: #C5A3FF;
+	--green: #81FFBE;
+	--blue: #81EEFF;
+	--pink: #FFA3C3;
+
+	--h1-color: var(--purple);
+	--h2-color: var(--green);
+  	--h3-color: var(--green);
+  	--h4-color: var(--green);
+  	--h5-color: var(--green);
+  	--h6-color: var(--green);
+
+	  --strong-color: var(--blue);
+	  --em-color: var(--blue);
+	  --quote-color: var(--purple);
+}
+
+/* Blockquote */
+body:not(.default-font-color) .markdown-preview-view blockquote,
+body:not(.default-font-color) span.cm-quote.cm-quote-1 {
+  font-style: italic;
+  color: var(--quote-color);
+}
+
+/* Bold font */
+body:not(.default-font-color) strong,
+body:not(.default-font-color) span:not(.cm-highlight).cm-strong {
+  color: var(--strong-color);
+}
+
+/* Italics */
+body:not(.default-font-color) em,
+body:not(.default-font-color) span:not(.cm-highlight).cm-em {
+  color: var(--em-color);
+}
+
+/* Links */
+body:not(.default-font-color) em,
+body:not(.default-font-color) span:not(.cm-highlight).cm-url {
+  color: var(--pink);
 }
 
 .workspace-tab-header.is-active::before,

@@ -21,9 +21,15 @@ body {
   	--h5-color: var(--green);
   	--h6-color: var(--green);
 
-	  --strong-color: var(--blue);
-	  --em-color: var(--blue);
-	  --quote-color: var(--purple);
+	--strong-color: var(--blue);
+	--em-color: var(--blue);
+	--quote-color: var(--purple);
+
+	--status-bar-background: var(--purple);
+	--status-bar-text-color: var(--color-base-100);
+
+	/* --titlebar-background-focused: var(--purple); */
+	--icon-color: var(--color-base-100);
 }
 
 /* Blockquote */
